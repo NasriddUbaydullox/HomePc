@@ -11,6 +11,6 @@ public class PatientDto
     public bool IsActive { get; set; }
     public DateTime RegisteredDate { get; set; }
     public int? PatientBlankId { get; set; }
-    public string BlankIdentifier { get; set; }
+    //public string BlankIdentifier { get; set; }
 }
 

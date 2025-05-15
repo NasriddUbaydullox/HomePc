@@ -1,20 +1,22 @@
 ﻿using HospitalManagment_V2.DataAccess;
 using HospitalManagment_V2.DataAccess.Entities;
+using HospitalManagment_V2.Repository;
 using MediatR;
 
-namespace HospitalManagment_V2.Mediator.Patients.GetPatientById;
+namespace HospitalManagment_V2.Mediator.Patients.GetPatient;
 
-public class GetPatientByIdQueryHandler : IRequestHandler<GetPatientByIdQuery, Patient?>
+public class GetPatientByIdQueryHandler : IRequestHandler<GetPatientByIdQuery, Patient>
 {
-    private readonly Context _context;
+	private readonly IPatientRepository _repo;
 
-    public GetPatientByIdQueryHandler(Context context)
-    {
-        _context = context;
-    }
-    public async Task<Patient?> Handle(GetPatientByIdQuery request, CancellationToken cancellationToken)
-    {
-        var patient = await _context.Patients.FindAsync(request.id);
-        return patient;
-    }
+	public GetPatientByIdQueryHandler(IPatientRepository repo)
+	{
+		_repo = repo;
+	}
+
+	public async Task<Patient> Handle(GetPatientByIdQuery request, CancellationToken cancellationToken)
+	{
+		var patient = await _repo.GetByIdAsync(request.id);
+		return patient;
+	}
 }

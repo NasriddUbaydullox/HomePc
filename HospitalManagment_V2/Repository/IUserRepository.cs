@@ -1,10 +1,86 @@
-﻿using HospitalManagment_V2.DataAccess.Entities;
+﻿using HospitalManagment_V2.DataAccess;
+using HospitalManagment_V2.DataAccess.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace HospitalManagment_V2.Repository;
 
-public interface IUserRepository : IRepository<User>
+public interface IUserRepository
 {
-    IQueryable<User?> GetAllActive();
+	IQueryable<User> GetAll();
 
-    Task<User?> GetByUsernameAsync(string username);
+	Task<User> GetByIdAsync(int id);
+
+	Task AddAsync(User user);
+
+	Task UpdateAsync(User user);
+
+	Task DeleteAsync(int id);
+
+	Task SaveChangesAsync();
+
+	Task<User?> GetByUsernameAsync(string username);
+
+	IQueryable<User?> GetAllActive();
+}
+public class UserRepository : IUserRepository
+{
+	private readonly Context _context;
+
+	public UserRepository(Context context)
+	{
+		_context = context;
+
+	}
+
+	public IQueryable<User> GetAll()
+	{
+		return _context.Users
+			.AsQueryable();
+	}
+
+	public async Task<User> GetByIdAsync(int id)
+	{
+		var doctor = await _context.Users.FindAsync(id);
+
+		return doctor;
+	}
+
+	public async Task AddAsync(User patient)
+	{
+		await _context.AddAsync(patient);
+		await _context.SaveChangesAsync();
+	}
+
+	public async Task UpdateAsync(User patient)
+	{
+		_context.Update(patient);
+		await _context.SaveChangesAsync();
+	}
+
+	public async Task DeleteAsync(int id)
+	{
+		var patient = await _context.Users.FindAsync(id);
+		if (patient != null)
+		{
+			_context.Remove(patient);
+			await _context.SaveChangesAsync();
+		}
+	}
+
+	public async Task SaveChangesAsync()
+	{
+		await _context.SaveChangesAsync();
+	}
+
+
+	public IQueryable<User?> GetAllActive()
+	{
+		return _context.Users.Where(u => u.IsActive);
+	}
+
+	public async Task<User?> GetByUsernameAsync(string username)
+	{
+		return await _context.Users
+			.FirstOrDefaultAsync(u => u.Username == username && u.IsActive);
+	}
 }

@@ -1,25 +1,22 @@
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using HospitalManagment_V2.classes;
 using HospitalManagment_V2.DataAccess;
 using HospitalManagment_V2.Examples;
-using HospitalManagment_V2.Hashers;
-using HospitalManagment_V2.JwtSetting;
+using HospitalManagment_V2.Extansions;
+using HospitalManagment_V2.Helpers;
 using HospitalManagment_V2.MapperProfile;
-using HospitalManagment_V2.Mediator.Doctors.CreateDoctor;
-using HospitalManagment_V2.Mediator.Doctors.GetDoctorById;
 using HospitalManagment_V2.Middleware;
 using HospitalManagment_V2.Repository;
 using HospitalManagment_V2.Services;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Sats.PostgreSqlDistributedCache;
 using Serilog;
 using Swashbuckle.AspNetCore.Filters;
 using System.Reflection;
-using System.Text;
 using System.Threading.RateLimiting;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -32,7 +29,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
     options.EnableAnnotations();
-    
+
 
     options.SwaggerDoc("v1", new OpenApiInfo
     {
@@ -41,30 +38,6 @@ builder.Services.AddSwaggerGen(options =>
         Description = "Very Very Good"
     });
     options.ExampleFilters();
-
-
-    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
-    {
-        Description = "JWT Authorization header using the Bearer scheme. \n\r Enter 'Bearer' [space] and then your token in the text input below.\n\r Example: \"Bearer 12345abcdef\"",
-        Name = "Authorization",
-        In = ParameterLocation.Header,
-        Type = SecuritySchemeType.Http,
-        Scheme = "bearer"
-    });
-
-    options.AddSecurityRequirement(new OpenApiSecurityRequirement()
-            {
-                {
-                    new OpenApiSecurityScheme
-                    {
-                        Reference = new OpenApiReference
-                        {
-                            Type = ReferenceType.SecurityScheme,
-                            Id = "Bearer"
-                        }
-                    }, []
-                }
-            });
 });
 
 builder.Services.Configure<FileStorage>(builder.Configuration.GetSection("MedicalRecordsPath"));
@@ -77,41 +50,42 @@ builder.Services.AddSwaggerExamplesFromAssemblyOf<DoctorExample>();
 
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
-builder.Services.AddMediatR(cfg =>
-    cfg.RegisterServicesFromAssembly(typeof(GetDoctorByIdQueryHandler).Assembly));
+builder.Services.AddScoped<IPatientRepository, PatientRepository>();
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblyContaining<Program>());
-
-builder.Services.AddScoped<IPatientRepository, PatientRepository>();
 
 builder.Services.AddScoped<IPatientService, PatientService>();
 
 builder.Services.AddScoped<ICorroletionId, CorreletionId>();
 
-builder.Services.AddScoped<IDoctorRepository, DoctorRepository>();
-
-builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-
-builder.Services.AddScoped<IAuthService, AuthService>();
-
-builder.Services.AddScoped<IPasswordHasher, PasswordHasher>();
-
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IPasswordHasher, PasswordHasher>(); // bu sizning custom versiyangiz
 
-builder.Services.AddAuthorization();
+
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly);
+
+builder.Services.
+     AddEndpointsApiExplorer()
+	.AddSwaggerDocs()
+	.AddJwtAuthentication(builder.Configuration)
+	.AddConfigurations(builder.Configuration);
+
+//builder.Services.AddScoped<IDoctorRepository, DoctorRepository>();
 
 // RateLimiter
 
 builder.Services.AddRateLimiter(rateLimiterOptions =>
 {
     rateLimiterOptions.RejectionStatusCode = StatusCodes.Status429TooManyRequests;
-    //rateLimiterOptions.AddFixedWindowLimiter("fixed", options =>
-    //{
-    //    options.PermitLimit = 10; // 10 ta request
-    //    options.Window = TimeSpan.FromSeconds(10);  // 10 sekund ichida
-    //    options.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;  // 1 chi kirgan 1 chi chiqadi
-    //    options.QueueLimit = 5;  // agar 10 ta request kelsa ularning 5 tasi ishlaydi qogani kutadi 5 tani ignore qmedi
-    //});
+    rateLimiterOptions.AddFixedWindowLimiter("fixed", options =>
+    {
+        options.PermitLimit = 10; // 10 ta request
+        options.Window = TimeSpan.FromSeconds(10);  // 10 sekund ichida
+        options.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;  // 1 chi kirgan 1 chi chiqadi
+        options.QueueLimit = 5;  // agar 10 ta request kelsa ularning 5 tasi ishlaydi qogani kutadi 5 tani ignore qmedi
+    });
     //rateLimiterOptions.GlobalLimiter = PartitionedRateLimiter.Create<HttpContext, string>(httpContext =>
 
     //    RateLimitPartition.GetFixedWindowLimiter(
@@ -167,9 +141,16 @@ builder.Services.AddMemoryCache();
 builder.Services.AddDbContext<Context>(options =>
 {
     options
-        .UseNpgsql("Server=localhost;Port=5432;Database=HospitalManagmentV2;User Id=postgres;Password=postgres;")
+        .UseNpgsql("Server=localhost;Port=5432;Database=PoliceStatemaneHospital;User Id=postgres;Password=postgres;")
         .LogTo(Console.WriteLine, LogLevel.Information);
 });
+
+//builder.Services.AddAuthorization(options =>
+//{
+//    options.AddPolicy(
+//        nameof(RoleType.Admin),
+//        policy => policy.RequireClaim(nameof(RolType.Admin)));
+//});
 
 
 #region Serilog
@@ -183,35 +164,6 @@ Log.Logger = new LoggerConfiguration()
 
 // Replace default logging with Serilog
 builder.Host.UseSerilog();
-#endregion
-
-#region JWT
-
-builder.Services
-    .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options =>
-    {
-        //options.Authority = "cafe.uz";
-        options.Audience = "cafe.uz";
-
-        string signInKey = builder.Configuration["Jwt:Key"];
-
-        options.TokenValidationParameters = new TokenValidationParameters()
-        {
-            ValidateAudience = true,
-            ValidateIssuer = true,
-            ValidateIssuerSigningKey = true,
-            ValidAudiences = ["cafe.uz", "mobile.cafe.uz"],
-            ValidIssuers = ["cafe.uz"],
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(signInKey))
-        };
-    });
-
-builder.Services.AddOptions<JwtSettings>()
-    .BindConfiguration("Jwt");
-
-builder.Services.AddScoped<IAuthService,AuthService>();
-
 #endregion
 
 var app = builder.Build();
@@ -234,17 +186,21 @@ app.UseMiddleware<CorreletionIdMiddleware>();
 
 app.UseHttpsRedirection();
 
-app.UseAuthentication();
-
 app.UseAuthorization();
 
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger(options =>
-    {
-        options.SerializeAsV2 = true; // Serialize as Swagger 2.0
-    });
-}   
+
+	app.UseSwagger(options =>
+	{
+		options.SerializeAsV2 = true; // Serialize as Swagger 2.0
+	});
+
+	app.UseSwaggerUI(options =>
+	{
+		options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+	});
+}
 
 //app.UseCors("frontend");  //Cors
 

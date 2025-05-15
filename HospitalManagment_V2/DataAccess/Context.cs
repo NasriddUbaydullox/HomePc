@@ -10,9 +10,9 @@ namespace HospitalManagment_V2.DataAccess
         public DbSet<Patient> Patients { get; set; }
         public DbSet<PatientBlank> PatientBlanks { get; set; }
         public DbSet<Speciality> Specialities { get; set; }
-        public DbSet<User?> Users { get; set; }
-        public DbSet<Role> Roles { get; set; }
+        public DbSet<User> Users { get; set; }
         public DbSet<Permission> Permissions { get; set; }
+        public DbSet<Role> Roles { get; set; }
         public Context(DbContextOptions<Context> options) : base(options)
         {
 
@@ -26,16 +26,14 @@ namespace HospitalManagment_V2.DataAccess
                 builder.HasOne(r => r.Patient)
                     .WithMany(r => r.Appointments);
 
-                builder.HasOne(r => r.Doctor)
-                    .WithMany(r => r.Appointments);
+
             });
 
             modelBuilder.Entity<Doctor>(builder =>
             {
                 builder.HasKey(r => r.Id);
 
-                builder.HasOne(r => r.Speciality)
-                    .WithMany();
+
             });
 
             modelBuilder.Entity<Patient>(builder =>
@@ -57,26 +55,38 @@ namespace HospitalManagment_V2.DataAccess
                 builder.HasKey(r => r.Id);
             });
 
-            modelBuilder.Entity<Role>(builder =>
+
+
+
+
+            modelBuilder.Entity<User>(builder =>
+            {
+                builder.HasOne(r => r.Role)
+                    .WithMany(r => r.Users)
+                    .HasForeignKey(r => r.RoleId);
+
+
+                modelBuilder.Entity<Role>(builder =>
             {
                 builder.HasMany(r => r.Permissions)
                     .WithMany();
 
                 builder.HasData(new Role[]
                 {
-                new Role()
-                {
-                    RoleId = 1,
-                    Name = "super_admin",
-                    IsActive = true,
-                },
-                new Role()
-                {
-                    RoleId = 2,
-                    Name = "user",
-                    IsActive = true,
-                }
+                    new Role()
+                    {
+                        RoleId = 1,
+                        Name = "super_admin",
+                        IsActive = true,
+                    },
+                    new Role()
+                    {
+                        RoleId = 2,
+                        Name = "user",
+                        IsActive = true,
+                    }
                 });
+            });
             });
         }
     }

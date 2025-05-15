@@ -1,234 +1,259 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\",
+  "WorkspaceRootPath": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\repository\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:repository\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\dataaccess\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dataaccess\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\mediator\\auth\\signup\\signupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\auth\\signup\\signupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\mediator\\auth\\signup\\signupresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\auth\\signup\\signupresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\mediator\\auth\\signup\\signuprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\auth\\signup\\signuprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\dataaccess\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dataaccess\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\hashers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:hashers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\hashers\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:hashers\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\dataaccess\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\dataaccess\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dataaccess\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\dataaccess\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\dataaccess\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dataaccess\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\dataaccess\\entities\\speciality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dataaccess\\entities\\speciality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\dataaccess\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dataaccess\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\dataaccess\\entities\\patientblank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dataaccess\\entities\\patientblank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\dataaccess\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dataaccess\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\dataaccess\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dataaccess\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\dataaccess\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dataaccess\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\classes\\appointmentsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:classes\\appointmentsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\classes\\icorroletionid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:classes\\icorroletionid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\classes\\filestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:classes\\filestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\classes\\correletionid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:classes\\correletionid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\jwtsetting\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:jwtsetting\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\mediator\\auth\\signin\\singincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\auth\\signin\\singincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\mediator\\auth\\signin\\signinresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\auth\\signin\\signinresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\mediator\\auth\\signin\\signinrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\auth\\signin\\signinrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\mediator\\auth\\signin\\signincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\auth\\signin\\signincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\mediator\\patients\\updatepatient\\updatepatientcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\patients\\updatepatient\\updatepatientcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\mediator\\patients\\updatepatient\\updatepatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\patients\\updatepatient\\updatepatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\mediator\\patients\\updatepatient\\patientupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\patients\\updatepatient\\patientupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\mediator\\patients\\deletepatienbyid\\deletpatientbyidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\patients\\deletepatienbyid\\deletpatientbyidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\mediator\\patients\\deletepatienbyid\\deletepatientbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\patients\\deletepatienbyid\\deletepatientbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\mediator\\patients\\getpatientbyid\\getpatientbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\patients\\getpatientbyid\\getpatientbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\mediator\\patients\\getpatientbyid\\getpatientbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\patients\\getpatientbyid\\getpatientbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\mapperprofile\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mapperprofile\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\mediator\\patients\\createpatient\\createpatientcommandhendler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\patients\\createpatient\\createpatientcommandhendler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\mediator\\patients\\createpatient\\createpatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\patients\\createpatient\\createpatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\dtos\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dtos\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\examples\\doctorexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:examples\\doctorexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\dtos\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dtos\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\repository\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:repository\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\services\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:services\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\repository\\patientblankrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:repository\\patientblankrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\repository\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:repository\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\extensions\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\extensions\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:extensions\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\middleware\\correletionidmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\jwtsetting\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:jwtsetting\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\repository\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:repository\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\users\\createuser\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\users\\createuser\\createusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\patients\\createpatient\\createpatientcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\patients\\createpatient\\createpatientcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\patients\\createpatient\\createpatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\patients\\createpatient\\createpatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\doctors\\createdoctor\\createdoctorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\doctors\\createdoctor\\createdoctorcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\auth\\signup\\signupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\auth\\signup\\signupcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\auth\\signup\\signupresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\auth\\signup\\signupresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\auth\\signup\\signuprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\auth\\signup\\signuprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\auth\\signin\\signincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\auth\\signin\\signincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\GitHub\\HospitalManagment_V2\\HospitalManagment_V2\\Migrations\\20250513112950_Kayf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\GitHub\\HospitalManagment_V2\\HospitalManagment_V2\\Migrations\\20250513112658_Kayf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\GitHub\\HospitalManagment_V2\\HospitalManagment_V2\\Migrations\\20250513112624_Kayf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\auth\\signin\\signinresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\auth\\signin\\signinresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:helpers\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\helpers\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:helpers\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\auth\\signin\\signinrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\auth\\signin\\signinrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\patients\\updatepatient\\updatepatientcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\patients\\updatepatient\\updatepatientcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\patients\\deletepatientbyid\\deletepatientbyidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\patients\\deletepatientbyid\\deletepatientbyidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\patients\\updatepatient\\updatepatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\patients\\updatepatient\\updatepatientcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\patients\\updatepatient\\patientupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\patients\\updatepatient\\patientupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\patients\\getpatientbyid\\getpatientbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\patients\\getpatientbyid\\getpatientbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\dataaccess\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dataaccess\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\repository\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:repository\\doctorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\dtos\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dtos\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\doctors\\createdoctor\\createdoctorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\doctors\\createdoctor\\createdoctorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\dataaccess\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dataaccess\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\patients\\deletepatientbyid\\deletepatientbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\patients\\deletepatientbyid\\deletepatientbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\doctors\\getalldoctors\\getalldoctorsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\doctors\\getalldoctors\\getalldoctorsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\dtos\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dtos\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\doctors\\getalldoctors\\getalldoctorsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\doctors\\getalldoctors\\getalldoctorsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\examples\\doctorexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:examples\\doctorexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mapperprofile\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mapperprofile\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\mediator\\patients\\getpatientbyid\\getpatientbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:mediator\\patients\\getpatientbyid\\getpatientbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\repository\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:repository\\appointmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\repository\\patientblankrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:repository\\patientblankrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\services\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:services\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\dataaccess\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dataaccess\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\dataaccess\\entities\\speciality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dataaccess\\entities\\speciality.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\dataaccess\\entities\\patientblank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:dataaccess\\entities\\patientblank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\classes\\correletionid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:classes\\correletionid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\classes\\icorroletionid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:classes\\icorroletionid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\middleware\\correletionidmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:middleware\\correletionidmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\hospitalmanagment\\hospitalmanagment_v2\\middleware\\configurationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\classes\\appointmentsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:classes\\appointmentsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\classes\\filestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:classes\\filestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\middleware\\configurationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:middleware\\configurationmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|d:\\github\\studypc\\hospitalmanagment_v2\\migrations\\20250514093701_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC0726F-DEF7-496E-9F14-FC2886CD17B8}|HospitalManagment_V2.csproj|solutionrelative:migrations\\20250514093701_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -238,17 +263,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAYwFwAAABIAAAAAAAAAA==",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T04:58:03.246Z",
               "IsPinned": true,
@@ -256,482 +281,636 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\UserRepository.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "Repository\\UserRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBAAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "CreatePatientCommandHandler.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Patients\\CreatePatient\\CreatePatientCommandHandler.cs",
+              "RelativeDocumentMoniker": "Mediator\\Patients\\CreatePatient\\CreatePatientCommandHandler.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Patients\\CreatePatient\\CreatePatientCommandHandler.cs",
+              "RelativeToolTip": "Mediator\\Patients\\CreatePatient\\CreatePatientCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T06:04:58.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T09:54:55.296Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SignUpResponseDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Auth\\SignUp\\SignUpResponseDto.cs",
-              "RelativeDocumentMoniker": "Mediator\\Auth\\SignUp\\SignUpResponseDto.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Auth\\SignUp\\SignUpResponseDto.cs",
-              "RelativeToolTip": "Mediator\\Auth\\SignUp\\SignUpResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "CreatePatientCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Patients\\CreatePatient\\CreatePatientCommand.cs",
+              "RelativeDocumentMoniker": "Mediator\\Patients\\CreatePatient\\CreatePatientCommand.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Patients\\CreatePatient\\CreatePatientCommand.cs",
+              "RelativeToolTip": "Mediator\\Patients\\CreatePatient\\CreatePatientCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T05:53:59.69Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SignUpRequestDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Auth\\SignUp\\SignUpRequestDto.cs",
-              "RelativeDocumentMoniker": "Mediator\\Auth\\SignUp\\SignUpRequestDto.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Auth\\SignUp\\SignUpRequestDto.cs",
-              "RelativeToolTip": "Mediator\\Auth\\SignUp\\SignUpRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T05:53:43.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SignUpCommand.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Auth\\SignUp\\SignUpCommand.cs",
-              "RelativeDocumentMoniker": "Mediator\\Auth\\SignUp\\SignUpCommand.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Auth\\SignUp\\SignUpCommand.cs",
-              "RelativeToolTip": "Mediator\\Auth\\SignUp\\SignUpCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T05:53:23.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Repository\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\IUserRepository.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Repository\\IUserRepository.cs",
-              "RelativeToolTip": "Repository\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T05:51:56.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T09:53:40.029Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Repository\\IRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\IRepository.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Repository\\IRepository.cs",
-              "RelativeToolTip": "Repository\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T05:51:03.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "Repository\\Repository.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Repository\\Repository.cs",
-              "RelativeToolTip": "Repository\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T05:47:42.802Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Hashers\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "Hashers\\PasswordHasher.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Hashers\\PasswordHasher.cs",
-              "RelativeToolTip": "Hashers\\PasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T05:46:14.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IPasswordHasher.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Hashers\\IPasswordHasher.cs",
-              "RelativeDocumentMoniker": "Hashers\\IPasswordHasher.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Hashers\\IPasswordHasher.cs",
-              "RelativeToolTip": "Hashers\\IPasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T05:45:39.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\DataAccess\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Entities\\User.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\DataAccess\\Entities\\User.cs",
-              "RelativeToolTip": "DataAccess\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T05:43:33.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Context.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\DataAccess\\Context.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\DataAccess\\Context.cs",
               "RelativeDocumentMoniker": "DataAccess\\Context.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\DataAccess\\Context.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\DataAccess\\Context.cs",
               "RelativeToolTip": "DataAccess\\Context.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAkwFEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T05:02:52.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAABIAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IUserRepository.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "Repository\\IUserRepository.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswFIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T16:32:58.997Z",
+              "WhenOpened": "2025-05-13T10:50:34.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PatientRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Repository\\PatientRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\PatientRepository.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Repository\\PatientRepository.cs",
+              "RelativeToolTip": "Repository\\PatientRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwCcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T09:25:34.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\JwtSetting\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "JwtSetting\\JwtSettings.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\JwtSetting\\JwtSettings.cs",
+              "RelativeToolTip": "JwtSetting\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:07:31.042Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PatientRepository.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Repository\\PatientRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\PatientRepository.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Repository\\PatientRepository.cs",
-              "RelativeToolTip": "Repository\\PatientRepository.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAwwEgAAAAcAAAAAAAAAA==",
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Extensions\\Extensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\Extensions.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Extensions\\Extensions.cs",
+              "RelativeToolTip": "Extensions\\Extensions.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAewGMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T09:25:34.309Z",
+              "WhenOpened": "2025-03-28T17:10:59.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Permission.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\DataAccess\\Entities\\Permission.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Entities\\Permission.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\DataAccess\\Entities\\Permission.cs",
-              "RelativeToolTip": "DataAccess\\Entities\\Permission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "AppointmentService.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\AppointmentService.cs",
+              "RelativeToolTip": "AppointmentService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T05:44:39.026Z",
+              "WhenOpened": "2025-03-17T09:54:53.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\DataAccess\\Entities\\Role.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Entities\\Role.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\DataAccess\\Entities\\Role.cs",
-              "RelativeToolTip": "DataAccess\\Entities\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T05:44:17.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\appsettings.json",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\appsettings.json",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAADEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-17T08:59:36.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-16T12:51:57.011Z",
+              "DocumentIndex": 1,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\DataAccess\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\Role.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\DataAccess\\Entities\\Role.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T10:49:31.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CorreletionId.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\classes\\CorreletionId.cs",
-              "RelativeDocumentMoniker": "classes\\CorreletionId.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\classes\\CorreletionId.cs",
-              "RelativeToolTip": "classes\\CorreletionId.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\DataAccess\\Entities\\Permission.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\Permission.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\DataAccess\\Entities\\Permission.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T07:18:29.106Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "FileStorage.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\classes\\FileStorage.cs",
-              "RelativeDocumentMoniker": "classes\\FileStorage.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\classes\\FileStorage.cs",
-              "RelativeToolTip": "classes\\FileStorage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T09:15:21.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ICorroletionId.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\classes\\ICorroletionId.cs",
-              "RelativeDocumentMoniker": "classes\\ICorroletionId.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\classes\\ICorroletionId.cs",
-              "RelativeToolTip": "classes\\ICorroletionId.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T07:16:58.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AppointmentSettings.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\classes\\AppointmentSettings.cs",
-              "RelativeDocumentMoniker": "classes\\AppointmentSettings.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\classes\\AppointmentSettings.cs",
-              "RelativeToolTip": "classes\\AppointmentSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T09:16:23.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Appointment.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\DataAccess\\Entities\\Appointment.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Entities\\Appointment.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\DataAccess\\Entities\\Appointment.cs",
-              "RelativeToolTip": "DataAccess\\Entities\\Appointment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T05:00:56.638Z",
+              "WhenOpened": "2025-05-13T10:49:56.632Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "Doctor.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\DataAccess\\Entities\\Doctor.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Entities\\Doctor.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\DataAccess\\Entities\\Doctor.cs",
-              "RelativeToolTip": "DataAccess\\Entities\\Doctor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Title": "SignUpRequestDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Auth\\SignUp\\SignUpRequestDto.cs",
+              "RelativeDocumentMoniker": "Mediator\\Auth\\SignUp\\SignUpRequestDto.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Auth\\SignUp\\SignUpRequestDto.cs",
+              "RelativeToolTip": "Mediator\\Auth\\SignUp\\SignUpRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T05:01:24.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T12:04:01.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\DataAccess\\Entities\\Patient.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Entities\\Patient.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\DataAccess\\Entities\\Patient.cs",
-              "RelativeToolTip": "DataAccess\\Entities\\Patient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAPAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientController.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "Controllers\\PatientController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T05:01:57.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-01T10:00:38.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "PatientBlank.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\DataAccess\\Entities\\PatientBlank.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Entities\\PatientBlank.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\DataAccess\\Entities\\PatientBlank.cs",
-              "RelativeToolTip": "DataAccess\\Entities\\PatientBlank.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "CreateUserCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Users\\CreateUser\\CreateUserCommand.cs",
+              "RelativeDocumentMoniker": "Mediator\\Users\\CreateUser\\CreateUserCommand.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Users\\CreateUser\\CreateUserCommand.cs",
+              "RelativeToolTip": "Mediator\\Users\\CreateUser\\CreateUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T05:02:26.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T09:24:07.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T09:33:02.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20250514093701_initialMigration.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Migrations\\20250514093701_initialMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250514093701_initialMigration.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Migrations\\20250514093701_initialMigration.cs",
+              "RelativeToolTip": "Migrations\\20250514093701_initialMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T09:37:01.806Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Speciality.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\DataAccess\\Entities\\Speciality.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Entities\\Speciality.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\DataAccess\\Entities\\Speciality.cs",
-              "RelativeToolTip": "DataAccess\\Entities\\Speciality.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Title": "SignUpCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Auth\\SignUp\\SignUpCommand.cs",
+              "RelativeDocumentMoniker": "Mediator\\Auth\\SignUp\\SignUpCommand.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Auth\\SignUp\\SignUpCommand.cs",
+              "RelativeToolTip": "Mediator\\Auth\\SignUp\\SignUpCommand.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T05:02:09.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T12:03:27.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateDoctorCommandHandler.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Doctors\\CreateDoctor\\CreateDoctorCommandHandler.cs",
+              "RelativeDocumentMoniker": "Mediator\\Doctors\\CreateDoctor\\CreateDoctorCommandHandler.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Doctors\\CreateDoctor\\CreateDoctorCommandHandler.cs",
+              "RelativeToolTip": "Mediator\\Doctors\\CreateDoctor\\CreateDoctorCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:15:50.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:05:12.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:11:19.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20250513112624_Kayf.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\GitHub\\HospitalManagment_V2\\HospitalManagment_V2\\Migrations\\20250513112624_Kayf.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\GitHub\\HospitalManagment_V2\\HospitalManagment_V2\\Migrations\\20250513112624_Kayf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:26:24.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SignUpResponseDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Auth\\SignUp\\SignUpResponseDto.cs",
+              "RelativeDocumentMoniker": "Mediator\\Auth\\SignUp\\SignUpResponseDto.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Auth\\SignUp\\SignUpResponseDto.cs",
+              "RelativeToolTip": "Mediator\\Auth\\SignUp\\SignUpResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T12:04:21.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250513112950_Kayf.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\GitHub\\HospitalManagment_V2\\HospitalManagment_V2\\Migrations\\20250513112950_Kayf.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\GitHub\\HospitalManagment_V2\\HospitalManagment_V2\\Migrations\\20250513112950_Kayf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:29:50.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250513112658_Kayf.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\GitHub\\HospitalManagment_V2\\HospitalManagment_V2\\Migrations\\20250513112658_Kayf.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\GitHub\\HospitalManagment_V2\\HospitalManagment_V2\\Migrations\\20250513112658_Kayf.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:26:58.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SignInCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Auth\\SignIn\\SignInCommand.cs",
+              "RelativeDocumentMoniker": "Mediator\\Auth\\SignIn\\SignInCommand.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Auth\\SignIn\\SignInCommand.cs",
+              "RelativeToolTip": "Mediator\\Auth\\SignIn\\SignInCommand.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwB4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T10:48:24.942Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "JwtSettings.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\JwtSetting\\JwtSettings.cs",
-              "RelativeDocumentMoniker": "JwtSetting\\JwtSettings.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\JwtSetting\\JwtSettings.cs",
-              "RelativeToolTip": "JwtSetting\\JwtSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\IAuthService.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T16:37:23.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T11:04:36.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "UpdatePatientCommandHandler.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Patients\\UpdatePatient\\UpdatePatientCommandHandler.cs",
-              "RelativeDocumentMoniker": "Mediator\\Patients\\UpdatePatient\\UpdatePatientCommandHandler.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Patients\\UpdatePatient\\UpdatePatientCommandHandler.cs",
-              "RelativeToolTip": "Mediator\\Patients\\UpdatePatient\\UpdatePatientCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T08:42:40.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "PatientController.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Controllers\\PatientController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PatientController.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Controllers\\PatientController.cs",
-              "RelativeToolTip": "Controllers\\PatientController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA4wC0AAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T09:36:54.301Z"
+              "DocumentIndex": 22,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-16T12:51:57.011Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 28,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Services\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Services\\IAuthService.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Services\\IAuthService.cs",
-              "RelativeToolTip": "Services\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Helpers\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "Helpers\\PasswordHasher.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Helpers\\PasswordHasher.cs",
+              "RelativeToolTip": "Helpers\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T16:40:28.585Z"
+              "WhenOpened": "2025-05-13T11:03:19.032Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "SignInCommand.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Auth\\SignIn\\SignInCommand.cs",
-              "RelativeDocumentMoniker": "Mediator\\Auth\\SignIn\\SignInCommand.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Auth\\SignIn\\SignInCommand.cs",
-              "RelativeToolTip": "Mediator\\Auth\\SignIn\\SignInCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T16:34:28.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "SignInRequestDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Auth\\SignIn\\SignInRequestDto.cs",
-              "RelativeDocumentMoniker": "Mediator\\Auth\\SignIn\\SignInRequestDto.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Auth\\SignIn\\SignInRequestDto.cs",
-              "RelativeToolTip": "Mediator\\Auth\\SignIn\\SignInRequestDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T16:34:53.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 25,
               "Title": "SignInResponseDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Auth\\SignIn\\SignInResponseDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Auth\\SignIn\\SignInResponseDto.cs",
               "RelativeDocumentMoniker": "Mediator\\Auth\\SignIn\\SignInResponseDto.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Auth\\SignIn\\SignInResponseDto.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Auth\\SignIn\\SignInResponseDto.cs",
               "RelativeToolTip": "Mediator\\Auth\\SignIn\\SignInResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T16:35:09.112Z"
+              "WhenOpened": "2025-05-13T10:59:19.901Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "SingInCommandHandler.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Auth\\SignIn\\SingInCommandHandler.cs",
-              "RelativeDocumentMoniker": "Mediator\\Auth\\SignIn\\SingInCommandHandler.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Auth\\SignIn\\SingInCommandHandler.cs",
-              "RelativeToolTip": "Mediator\\Auth\\SignIn\\SingInCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAqAAAAAAAAAA==",
+              "Title": "IPasswordHasher.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Helpers\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "Helpers\\IPasswordHasher.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Helpers\\IPasswordHasher.cs",
+              "RelativeToolTip": "Helpers\\IPasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T16:35:21.042Z"
+              "WhenOpened": "2025-05-13T11:02:56.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SignInRequestDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Auth\\SignIn\\SignInRequestDto.cs",
+              "RelativeDocumentMoniker": "Mediator\\Auth\\SignIn\\SignInRequestDto.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Auth\\SignIn\\SignInRequestDto.cs",
+              "RelativeToolTip": "Mediator\\Auth\\SignIn\\SignInRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T10:58:54.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DeletePatientByIdCommandHandler.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Patients\\DeletePatientById\\DeletePatientByIdCommandHandler.cs",
+              "RelativeDocumentMoniker": "Mediator\\Patients\\DeletePatientById\\DeletePatientByIdCommandHandler.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Patients\\DeletePatientById\\DeletePatientByIdCommandHandler.cs",
+              "RelativeToolTip": "Mediator\\Patients\\DeletePatientById\\DeletePatientByIdCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:24:26.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UpdatePatientCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Patients\\UpdatePatient\\UpdatePatientCommand.cs",
+              "RelativeDocumentMoniker": "Mediator\\Patients\\UpdatePatient\\UpdatePatientCommand.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Patients\\UpdatePatient\\UpdatePatientCommand.cs",
+              "RelativeToolTip": "Mediator\\Patients\\UpdatePatient\\UpdatePatientCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:40:52.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PatientUpdateDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Patients\\UpdatePatient\\PatientUpdateDto.cs",
+              "RelativeDocumentMoniker": "Mediator\\Patients\\UpdatePatient\\PatientUpdateDto.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Patients\\UpdatePatient\\PatientUpdateDto.cs",
+              "RelativeToolTip": "Mediator\\Patients\\UpdatePatient\\PatientUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:48:17.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UpdatePatientCommandHandler.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Patients\\UpdatePatient\\UpdatePatientCommandHandler.cs",
+              "RelativeDocumentMoniker": "Mediator\\Patients\\UpdatePatient\\UpdatePatientCommandHandler.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Patients\\UpdatePatient\\UpdatePatientCommandHandler.cs",
+              "RelativeToolTip": "Mediator\\Patients\\UpdatePatient\\UpdatePatientCommandHandler.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:44:00.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "GetPatientByIdQueryHandler.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Patients\\GetPatientById\\GetPatientByIdQueryHandler.cs",
+              "RelativeDocumentMoniker": "Mediator\\Patients\\GetPatientById\\GetPatientByIdQueryHandler.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Patients\\GetPatientById\\GetPatientByIdQueryHandler.cs",
+              "RelativeToolTip": "Mediator\\Patients\\GetPatientById\\GetPatientByIdQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:06:42.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\DataAccess\\Entities\\Patient.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\Patient.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\DataAccess\\Entities\\Patient.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T05:01:57.179Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 40,
-              "Title": "GetPatientByIdQueryHandler.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Patients\\GetPatientById\\GetPatientByIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "Mediator\\Patients\\GetPatientById\\GetPatientByIdQueryHandler.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Patients\\GetPatientById\\GetPatientByIdQueryHandler.cs",
-              "RelativeToolTip": "Mediator\\Patients\\GetPatientById\\GetPatientByIdQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\DataAccess\\Entities\\Doctor.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\Doctor.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\DataAccess\\Entities\\Doctor.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T09:44:51.895Z"
+              "WhenOpened": "2025-03-15T05:01:24.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CreateDoctorCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Doctors\\CreateDoctor\\CreateDoctorCommand.cs",
+              "RelativeDocumentMoniker": "Mediator\\Doctors\\CreateDoctor\\CreateDoctorCommand.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Doctors\\CreateDoctor\\CreateDoctorCommand.cs",
+              "RelativeToolTip": "Mediator\\Doctors\\CreateDoctor\\CreateDoctorCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:14:43.87Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 38,
-              "Title": "DeletePatientByIdCommand.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Patients\\DeletePatienById\\DeletePatientByIdCommand.cs",
-              "RelativeDocumentMoniker": "Mediator\\Patients\\DeletePatienById\\DeletePatientByIdCommand.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Patients\\DeletePatienById\\DeletePatientByIdCommand.cs",
-              "RelativeToolTip": "Mediator\\Patients\\DeletePatienById\\DeletePatientByIdCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA6AAAAAAAAAA==",
+              "Title": "DoctorDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Dtos\\DoctorDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\DoctorDto.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Dtos\\DoctorDto.cs",
+              "RelativeToolTip": "Dtos\\DoctorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T08:40:27.301Z"
+              "WhenOpened": "2025-04-26T03:43:10.953Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 37,
-              "Title": "DeletPatientByIdCommandHandler.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Patients\\DeletePatienById\\DeletPatientByIdCommandHandler.cs",
-              "RelativeDocumentMoniker": "Mediator\\Patients\\DeletePatienById\\DeletPatientByIdCommandHandler.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Patients\\DeletePatienById\\DeletPatientByIdCommandHandler.cs",
-              "RelativeToolTip": "Mediator\\Patients\\DeletePatienById\\DeletPatientByIdCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Title": "DoctorRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Repository\\DoctorRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\DoctorRepository.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Repository\\DoctorRepository.cs",
+              "RelativeToolTip": "Repository\\DoctorRepository.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAIBJwGwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T08:40:55.958Z"
+              "WhenOpened": "2025-03-27T09:24:09.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DeletePatientByIdCommand.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Patients\\DeletePatientById\\DeletePatientByIdCommand.cs",
+              "RelativeDocumentMoniker": "Mediator\\Patients\\DeletePatientById\\DeletePatientByIdCommand.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Patients\\DeletePatientById\\DeletePatientByIdCommand.cs",
+              "RelativeToolTip": "Mediator\\Patients\\DeletePatientById\\DeletePatientByIdCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:23:31.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DoctorController.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "Controllers\\DoctorController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwB0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:20:48.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GetAllDoctorsQueryHandler.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Doctors\\GetAllDoctors\\GetAllDoctorsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Mediator\\Doctors\\GetAllDoctors\\GetAllDoctorsQueryHandler.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Doctors\\GetAllDoctors\\GetAllDoctorsQueryHandler.cs",
+              "RelativeToolTip": "Mediator\\Doctors\\GetAllDoctors\\GetAllDoctorsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:06:08.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "PatientDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Dtos\\PatientDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\PatientDto.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Dtos\\PatientDto.cs",
+              "RelativeToolTip": "Dtos\\PatientDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T11:47:42.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "GetAllDoctorsQuery.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Doctors\\GetAllDoctors\\GetAllDoctorsQuery.cs",
+              "RelativeDocumentMoniker": "Mediator\\Doctors\\GetAllDoctors\\GetAllDoctorsQuery.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Doctors\\GetAllDoctors\\GetAllDoctorsQuery.cs",
+              "RelativeToolTip": "Mediator\\Doctors\\GetAllDoctors\\GetAllDoctorsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:04:36.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DoctorExample.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Examples\\DoctorExample.cs",
+              "RelativeDocumentMoniker": "Examples\\DoctorExample.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Examples\\DoctorExample.cs",
+              "RelativeToolTip": "Examples\\DoctorExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T03:38:00.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\MapperProfile\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "MapperProfile\\MappingProfile.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\MapperProfile\\MappingProfile.cs",
+              "RelativeToolTip": "MapperProfile\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T11:46:16.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "GetPatientByIdQuery.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Patients\\GetPatientById\\GetPatientByIdQuery.cs",
+              "RelativeDocumentMoniker": "Mediator\\Patients\\GetPatientById\\GetPatientByIdQuery.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Mediator\\Patients\\GetPatientById\\GetPatientByIdQuery.cs",
+              "RelativeToolTip": "Mediator\\Patients\\GetPatientById\\GetPatientByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:06:26.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "PatientBlankRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Repository\\PatientBlankRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\PatientBlankRepository.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Repository\\PatientBlankRepository.cs",
+              "RelativeToolTip": "Repository\\PatientBlankRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAxwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T06:51:55.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestController.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Controllers\\TestController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAuwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T10:10:39.312Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 50,
+              "Title": "AppointmentRepository.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Repository\\AppointmentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\AppointmentRepository.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Repository\\AppointmentRepository.cs",
+              "RelativeToolTip": "Repository\\AppointmentRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswCIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T08:53:55.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
               "Title": "IPatientService.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Services\\IPatientService.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Services\\IPatientService.cs",
               "RelativeDocumentMoniker": "Services\\IPatientService.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Services\\IPatientService.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Services\\IPatientService.cs",
               "RelativeToolTip": "Services\\IPatientService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -739,203 +918,83 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "PatientUpdateDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Patients\\UpdatePatient\\PatientUpdateDto.cs",
-              "RelativeDocumentMoniker": "Mediator\\Patients\\UpdatePatient\\PatientUpdateDto.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Patients\\UpdatePatient\\PatientUpdateDto.cs",
-              "RelativeToolTip": "Mediator\\Patients\\UpdatePatient\\PatientUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "DocumentIndex": 55,
+              "Title": "Speciality.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\DataAccess\\Entities\\Speciality.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\Speciality.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\DataAccess\\Entities\\Speciality.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\Speciality.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T08:41:47.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "UpdatePatientCommand.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Patients\\UpdatePatient\\UpdatePatientCommand.cs",
-              "RelativeDocumentMoniker": "Mediator\\Patients\\UpdatePatient\\UpdatePatientCommand.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Patients\\UpdatePatient\\UpdatePatientCommand.cs",
-              "RelativeToolTip": "Mediator\\Patients\\UpdatePatient\\UpdatePatientCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T08:42:07.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "TestController.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Controllers\\TestController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TestController.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Controllers\\TestController.cs",
-              "RelativeToolTip": "Controllers\\TestController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAxwFkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T10:10:39.312Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "CreatePatientCommandHendler.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Patients\\CreatePatient\\CreatePatientCommandHendler.cs",
-              "RelativeDocumentMoniker": "Mediator\\Patients\\CreatePatient\\CreatePatientCommandHendler.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Patients\\CreatePatient\\CreatePatientCommandHendler.cs",
-              "RelativeToolTip": "Mediator\\Patients\\CreatePatient\\CreatePatientCommandHendler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T09:24:21.351Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "PatientDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Dtos\\PatientDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\PatientDto.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Dtos\\PatientDto.cs",
-              "RelativeToolTip": "Dtos\\PatientDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T11:47:42.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\MapperProfile\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "MapperProfile\\MappingProfile.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\MapperProfile\\MappingProfile.cs",
-              "RelativeToolTip": "MapperProfile\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T11:46:16.424Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "GetPatientByIdQuery.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Patients\\GetPatientById\\GetPatientByIdQuery.cs",
-              "RelativeDocumentMoniker": "Mediator\\Patients\\GetPatientById\\GetPatientByIdQuery.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Patients\\GetPatientById\\GetPatientByIdQuery.cs",
-              "RelativeToolTip": "Mediator\\Patients\\GetPatientById\\GetPatientByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T09:44:30.369Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "CreatePatientCommand.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Patients\\CreatePatient\\CreatePatientCommand.cs",
-              "RelativeDocumentMoniker": "Mediator\\Patients\\CreatePatient\\CreatePatientCommand.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Mediator\\Patients\\CreatePatient\\CreatePatientCommand.cs",
-              "RelativeToolTip": "Mediator\\Patients\\CreatePatient\\CreatePatientCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T09:24:08.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "DoctorExample.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Examples\\DoctorExample.cs",
-              "RelativeDocumentMoniker": "Examples\\DoctorExample.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Examples\\DoctorExample.cs",
-              "RelativeToolTip": "Examples\\DoctorExample.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T03:38:00.208Z"
+              "WhenOpened": "2025-03-15T05:02:09.915Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 53,
-              "Title": "AppointmentRepository.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Repository\\AppointmentRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\AppointmentRepository.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Repository\\AppointmentRepository.cs",
-              "RelativeToolTip": "Repository\\AppointmentRepository.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAIwDIAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T08:53:55.67Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "DoctorRepository.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Repository\\DoctorRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\DoctorRepository.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Repository\\DoctorRepository.cs",
-              "RelativeToolTip": "Repository\\DoctorRepository.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAcwC8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T09:24:09.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "DoctorDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Dtos\\DoctorDto.cs",
-              "RelativeDocumentMoniker": "Dtos\\DoctorDto.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Dtos\\DoctorDto.cs",
-              "RelativeToolTip": "Dtos\\DoctorDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T03:43:10.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
               "Title": "AppointmentDto.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Dtos\\AppointmentDto.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Dtos\\AppointmentDto.cs",
               "RelativeDocumentMoniker": "Dtos\\AppointmentDto.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Dtos\\AppointmentDto.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Dtos\\AppointmentDto.cs",
               "RelativeToolTip": "Dtos\\AppointmentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T08:47:56.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "AppointmentService.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\AppointmentService.cs",
-              "RelativeDocumentMoniker": "AppointmentService.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\AppointmentService.cs",
-              "RelativeToolTip": "AppointmentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T09:54:53.097Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "PatientBlankRepository.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Repository\\PatientBlankRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\PatientBlankRepository.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Repository\\PatientBlankRepository.cs",
-              "RelativeToolTip": "Repository\\PatientBlankRepository.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAQwDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T06:51:55.021Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 54,
-              "Title": "Extensions.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Extensions\\Extensions.cs",
-              "RelativeDocumentMoniker": "Extensions\\Extensions.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Extensions\\Extensions.cs",
-              "RelativeToolTip": "Extensions\\Extensions.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAmwDAAAAAMAAAAAAAAAA==",
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\DataAccess\\Entities\\Appointment.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\Appointment.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\DataAccess\\Entities\\Appointment.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T17:10:59.433Z"
+              "WhenOpened": "2025-03-15T05:00:56.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
+              "Title": "PatientBlank.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\DataAccess\\Entities\\PatientBlank.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\PatientBlank.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\DataAccess\\Entities\\PatientBlank.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\PatientBlank.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T05:02:26.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CorreletionId.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\classes\\CorreletionId.cs",
+              "RelativeDocumentMoniker": "classes\\CorreletionId.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\classes\\CorreletionId.cs",
+              "RelativeToolTip": "classes\\CorreletionId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:18:29.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ICorroletionId.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\classes\\ICorroletionId.cs",
+              "RelativeDocumentMoniker": "classes\\ICorroletionId.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\classes\\ICorroletionId.cs",
+              "RelativeToolTip": "classes\\ICorroletionId.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T07:16:58.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
               "Title": "CorreletionIdMiddleware.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Middleware\\CorreletionIdMiddleware.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Middleware\\CorreletionIdMiddleware.cs",
               "RelativeDocumentMoniker": "Middleware\\CorreletionIdMiddleware.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Middleware\\CorreletionIdMiddleware.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Middleware\\CorreletionIdMiddleware.cs",
               "RelativeToolTip": "Middleware\\CorreletionIdMiddleware.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwAgAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -943,11 +1002,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 60,
+              "Title": "AppointmentSettings.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\classes\\AppointmentSettings.cs",
+              "RelativeDocumentMoniker": "classes\\AppointmentSettings.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\classes\\AppointmentSettings.cs",
+              "RelativeToolTip": "classes\\AppointmentSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T09:16:23.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "FileStorage.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\classes\\FileStorage.cs",
+              "RelativeDocumentMoniker": "classes\\FileStorage.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\classes\\FileStorage.cs",
+              "RelativeToolTip": "classes\\FileStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T09:15:21.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
               "Title": "ConfigurationMiddleware.cs",
-              "DocumentMoniker": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Middleware\\ConfigurationMiddleware.cs",
+              "DocumentMoniker": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Middleware\\ConfigurationMiddleware.cs",
               "RelativeDocumentMoniker": "Middleware\\ConfigurationMiddleware.cs",
-              "ToolTip": "D:\\GitHub\\HospitalManagment\\HospitalManagment_V2\\Middleware\\ConfigurationMiddleware.cs",
+              "ToolTip": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\Middleware\\ConfigurationMiddleware.cs",
               "RelativeToolTip": "Middleware\\ConfigurationMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

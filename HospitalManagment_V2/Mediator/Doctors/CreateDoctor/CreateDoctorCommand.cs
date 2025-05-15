@@ -1,13 +1,8 @@
-﻿using HospitalManagment_V2.Dtos;
+﻿using HospitalManagment_V2.DataAccess.Entities;
+using HospitalManagment_V2.Dtos;
 using MediatR;
+
 namespace HospitalManagment_V2.Mediator.Doctors.CreateDoctor;
 
-public class CreateDoctorCommand : IRequest<int>
-{
-    public DoctorDto dto { get; set; }
+public record CreateDoctorCommand(DoctorDto dto) : IRequest<int>;
 
-    public CreateDoctorCommand(DoctorDto doctor)
-    {
-        dto = doctor;
-    }
-}

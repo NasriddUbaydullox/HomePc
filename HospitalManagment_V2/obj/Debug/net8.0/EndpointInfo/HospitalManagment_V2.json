@@ -37,6 +37,80 @@
         }
       }
     },
+    "/sign-up": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SignUpRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SignUpRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SignUpRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Doctor/get-all-doctors": {
+      "get": {
+        "tags": [
+          "Doctor"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Doctor/create-doctor": {
+      "post": {
+        "tags": [
+          "Doctor"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateDoctorCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateDoctorCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateDoctorCommand"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Patient/create-patient": {
       "post": {
         "tags": [
@@ -145,79 +219,30 @@
         }
       }
     },
-    "/api/Test/test": {
-      "get": {
+    "/api/User/create-user": {
+      "post": {
         "tags": [
-          "Test"
+          "User"
         ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Test": {
-      "get": {
-        "tags": [
-          "Test"
-        ],
-        "summary": "Get all Doctors",
-        "responses": {
-          "200": {
-            "description": "Get all menu",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/DoctorDto"
-                  }
-                },
-                "example": {"id":0,"firstname":"John","lastname":"Doe","isActive":true,"speciality":{"id":1,"name":"Not good"},"appointments":[{"isActive":true,"patientId":1,"doctorId":1,"appointmentDate":"2025-05-12T17:03:01.3777892+05:00"}]}
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/DoctorDto"
-                  }
-                },
-                "example": {"id":0,"firstname":"John","lastname":"Doe","isActive":true,"speciality":{"id":1,"name":"Not good"},"appointments":[{"isActive":true,"patientId":1,"doctorId":1,"appointmentDate":"2025-05-12T17:03:01.3777892+05:00"}]}
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/DoctorDto"
-                  }
-                },
-                "example": {"id":0,"firstname":"John","lastname":"Doe","isActive":true,"speciality":{"id":1,"name":"Not good"},"appointments":[{"isActive":true,"patientId":1,"doctorId":1,"appointmentDate":"2025-05-12T17:03:01.3777892+05:00"}]}
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserCommand"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserCommand"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateUserCommand"
               }
             }
-          },
-          "404": {
-            "description": "Menu not found"
           }
-        }
-      }
-    },
-    "/api/Test/get-doctor-by-id-mediator/{id}": {
-      "get": {
-        "tags": [
-          "Test"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -228,23 +253,11 @@
   },
   "components": {
     "schemas": {
-      "AppointmentDto": {
+      "CreateDoctorCommand": {
         "type": "object",
         "properties": {
-          "isActive": {
-            "type": "boolean"
-          },
-          "patientId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "doctorId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "appointmentDate": {
-            "type": "string",
-            "format": "date-time"
+          "dto": {
+            "$ref": "#/components/schemas/DoctorDto"
           }
         },
         "additionalProperties": false
@@ -252,8 +265,40 @@
       "CreatePatientCommand": {
         "type": "object",
         "properties": {
-          "patient": {
+          "dto": {
             "$ref": "#/components/schemas/PatientDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateUserCommand": {
+        "type": "object",
+        "properties": {
+          "dto": {
+            "$ref": "#/components/schemas/CreateUserDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreateUserDto": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "passwordHash": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "roleId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -261,10 +306,6 @@
       "DoctorDto": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
           "firstname": {
             "type": "string",
             "nullable": true
@@ -275,16 +316,6 @@
           },
           "isActive": {
             "type": "boolean"
-          },
-          "speciality": {
-            "$ref": "#/components/schemas/Speciality"
-          },
-          "appointments": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/AppointmentDto"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -315,10 +346,6 @@
           "patientBlankId": {
             "type": "integer",
             "format": "int32",
-            "nullable": true
-          },
-          "blankIdentifier": {
-            "type": "string",
             "nullable": true
           }
         },
@@ -368,14 +395,18 @@
         },
         "additionalProperties": false
       },
-      "Speciality": {
+      "SignUpRequestDto": {
         "type": "object",
         "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
+          "username": {
+            "type": "string",
+            "nullable": true
           },
-          "name": {
+          "password": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
             "type": "string",
             "nullable": true
           }
@@ -391,6 +422,18 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "JWT Authorization header using the Bearer scheme. \n\r Enter 'Bearer' [space] and then your token in the text input below.\n\r Example: \"Bearer 12345abcdef\"",
+        "scheme": "bearer"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }
