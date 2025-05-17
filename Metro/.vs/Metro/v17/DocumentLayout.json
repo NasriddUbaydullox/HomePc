@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\Metro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF1554EA-27B0-4FA7-86F3-55256BA5B8C0}|Metro.csproj|d:\\c#\\metro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF1554EA-27B0-4FA7-86F3-55256BA5B8C0}|Metro.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF1554EA-27B0-4FA7-86F3-55256BA5B8C0}|Metro.csproj|d:\\c#\\metro\\database\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF1554EA-27B0-4FA7-86F3-55256BA5B8C0}|Metro.csproj|solutionrelative:database\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF1554EA-27B0-4FA7-86F3-55256BA5B8C0}|Metro.csproj|d:\\c#\\metro\\migrations\\20250516175031_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF1554EA-27B0-4FA7-86F3-55256BA5B8C0}|Metro.csproj|solutionrelative:migrations\\20250516175031_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF1554EA-27B0-4FA7-86F3-55256BA5B8C0}|Metro.csproj|d:\\c#\\metro\\extensions\\migrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF1554EA-27B0-4FA7-86F3-55256BA5B8C0}|Metro.csproj|solutionrelative:extensions\\migrationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF1554EA-27B0-4FA7-86F3-55256BA5B8C0}|Metro.csproj|d:\\c#\\metro\\database\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF1554EA-27B0-4FA7-86F3-55256BA5B8C0}|Metro.csproj|solutionrelative:database\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20250516175031_InitialMigration.cs",
+              "DocumentMoniker": "D:\\C#\\Metro\\Migrations\\20250516175031_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250516175031_InitialMigration.cs",
+              "ToolTip": "D:\\C#\\Metro\\Migrations\\20250516175031_InitialMigration.cs",
+              "RelativeToolTip": "Migrations\\20250516175031_InitialMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:50:31.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MigrationExtensions.cs",
+              "DocumentMoniker": "D:\\C#\\Metro\\Extensions\\MigrationExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\MigrationExtensions.cs",
+              "ToolTip": "D:\\C#\\Metro\\Extensions\\MigrationExtensions.cs",
+              "RelativeToolTip": "Extensions\\MigrationExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:41:18.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Context.cs",
+              "DocumentMoniker": "D:\\C#\\Metro\\Database\\Context.cs",
+              "RelativeDocumentMoniker": "Database\\Context.cs",
+              "ToolTip": "D:\\C#\\Metro\\Database\\Context.cs",
+              "RelativeToolTip": "Database\\Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:37:57.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\C#\\Metro\\Database\\User.cs",
+              "RelativeDocumentMoniker": "Database\\User.cs",
+              "ToolTip": "D:\\C#\\Metro\\Database\\User.cs",
+              "RelativeToolTip": "Database\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:32:22.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\C#\\Metro\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\C#\\Metro\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:30:09.461Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
