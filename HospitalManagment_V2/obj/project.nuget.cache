@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yx87calQ6F0=",
+  "dgSpecHash": "mYr2kVChUH4=",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\HospitalManagment_V2.csproj",
+  "projectFilePath": "D:\\GitHub\\HomePc\\HospitalManagment_V2\\HospitalManagment_V2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nasri\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\nasri\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",

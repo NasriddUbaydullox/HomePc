@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\HospitalManagment_V2.csproj": {}
+    "D:\\GitHub\\HomePc\\HospitalManagment_V2\\HospitalManagment_V2.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\HospitalManagment_V2.csproj": {
+    "D:\\GitHub\\HomePc\\HospitalManagment_V2\\HospitalManagment_V2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\HospitalManagment_V2.csproj",
+        "projectUniqueName": "D:\\GitHub\\HomePc\\HospitalManagment_V2\\HospitalManagment_V2.csproj",
         "projectName": "HospitalManagment_V2",
-        "projectPath": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\HospitalManagment_V2.csproj",
+        "projectPath": "D:\\GitHub\\HomePc\\HospitalManagment_V2\\HospitalManagment_V2.csproj",
         "packagesPath": "C:\\Users\\nasri\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\StudyPc\\HospitalManagment_V2\\obj\\",
+        "outputPath": "D:\\GitHub\\HomePc\\HospitalManagment_V2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

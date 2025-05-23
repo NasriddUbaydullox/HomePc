@@ -1,0 +1,120 @@
+﻿// Package
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer
+
+//Program.cs
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// JWT sozlamalari
+var key = Encoding.ASCII.GetBytes("your_super_secret_key_123!");
+
+// JWT authentication
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(options =>
+{
+    options.RequireHttpsMetadata = false;
+    options.SaveToken = true;
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(key),
+        ValidateIssuer = false,
+        ValidateAudience = false
+    };
+});
+
+builder.Services.AddControllers();
+
+var app = builder.Build();
+
+
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();
+
+// Test 
+public class User
+{
+    public string Username { get; set; }
+    public string Password { get; set; }
+}
+
+// Controller 
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+
+[Route("api/[controller]")]
+[ApiController]
+public class AuthController : ControllerBase
+{
+    private static List<User> users = new List<User>();
+
+    [HttpPost("signup")]
+    public IActionResult SignUp([FromBody] User user)
+    {
+        if (users.Any(u => u.Username == user.Username))
+            return BadRequest("Username already exists");
+
+        users.Add(user);
+        return Ok("User registered");
+    }
+
+    [HttpPost("signin")]
+    public IActionResult SignIn([FromBody] User login)
+    {
+        var user = users.FirstOrDefault(u => u.Username == login.Username && u.Password == login.Password);
+        if (user == null)
+            return Unauthorized();
+
+        var tokenHandler = new JwtSecurityTokenHandler();
+        var key = Encoding.ASCII.GetBytes("your_super_secret_key_123!");
+
+        var tokenDescriptor = new SecurityTokenDescriptor
+        {
+            Subject = new ClaimsIdentity(new Claim[]
+            {
+                new Claim(ClaimTypes.Name, user.Username)
+            }),
+            Expires = DateTime.UtcNow.AddHours(1),
+            SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+        };
+
+        var token = tokenHandler.CreateToken(tokenDescriptor);
+        var jwt = tokenHandler.WriteToken(token);
+
+        return Ok(new { token = jwt });
+    }
+}
+
+// Authorize Controller 
+
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+
+[Route("api/[controller]")]
+[ApiController]
+[Authorize]
+public class SecureController : ControllerBase
+{
+    [HttpGet("secret")]
+    public IActionResult GetSecret()
+    {
+        var username = User.Identity?.Name;
+        return Ok($"Welcome {username}, this is a secret!");
+    }
+}
+
+
